@@ -54,10 +54,10 @@ p {
 	margin-bottom: 1em;
 }
 aside{
+	grid-row: 1;
 	grid-column: 3 / 4;
-	grid-row: 2;
-	font-size: 16px;
 }
+
 #intro {
 	font-size: 22px;
 	grid-column: 2 / 3;
@@ -66,6 +66,7 @@ aside{
 #automotive, #maritime, #medical, #physics, #myths {
 grid-column: 2 / 3;
 }
+
 #footer-container {
 	grid-row:    3 / 4;
 }
@@ -78,6 +79,6 @@ grid-column: 2 / 3;
 
 #main-container {
 	grid-row:    2;
-	
+	grid-column: 2;
 }
 
